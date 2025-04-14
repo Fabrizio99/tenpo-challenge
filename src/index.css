@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "flyonui";
+@import "../node_modules/flyonui/variants.css";
+@source "../node_modules/flyonui/dist/index.js";
+@plugin "@iconify/tailwind4";
+
+
+@utility layout {
+  @apply w-full max-w-7xl mx-auto;
+}
