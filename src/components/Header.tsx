@@ -1,4 +1,3 @@
-import "flyonui/dist/dropdown";
 import { useEffect } from "react";
 import { useAuth } from "@/hooks/useAuth";
 import { useUser } from "@/hooks/useUser";
