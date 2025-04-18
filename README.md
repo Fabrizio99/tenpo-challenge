@@ -90,7 +90,7 @@ El mock API está disponible públicamente en:
 
 > https://github.com/Fabrizio99/fake-api-imdb
 
-**Nota importante:** Dado que el mock API está desplegado en un servicio gratuito, si no hay actividad durante más de 15 segundos, la primera petición posterior puede tardar hasta **50 segundos en reactivarse**. Luego de eso, las respuestas vuelven a ser rápidas y estables.
+**Nota importante:** Dado que el mock API está desplegado en un servicio gratuito, si no hay actividad durante más de 15 minutos, la primera petición posterior puede tardar hasta **50 segundos en reactivarse**. Luego de eso, las respuestas vuelven a ser rápidas y estables.
 
 Para cumplir con el requerimiento de mostrar una lista extensa, utilicé una **estrategia de paginación controlada** desde el frontend, mediante `_page` y `_per_page` contra la API pública:
 
